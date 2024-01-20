@@ -37,6 +37,8 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 
+
+${licenseBadge}
 ## Table of Contents
 -[Installation](#installation)
 -[Usage](#usage)
@@ -51,14 +53,12 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-${licenseBadge}
-
 ${licenseSection}
 
 ## Contributing
 ${data.contributing}
 
-## Test
+## Tests
 ${data.tests}
 
 ## Questions
